@@ -9,7 +9,7 @@ client = Client('',
 
 def get_sma_klines(coin):
     try:
-        klines15 = client.get_historical_klines(coin, Client.KLINE_INTERVAL_1HOUR, "15 hours ago UTC")
+        klines14 = client.get_historical_klines(coin, Client.KLINE_INTERVAL_1HOUR, "15 hours ago UTC")
         klines50 = client.get_historical_klines(coin, Client.KLINE_INTERVAL_1HOUR, "50 hours ago UTC")
         klines16 = client.get_historical_klines(coin, Client.KLINE_INTERVAL_1HOUR, "16 hours ago UTC")
         klines51 = client.get_historical_klines(coin, Client.KLINE_INTERVAL_1HOUR, "51 hours ago UTC")
