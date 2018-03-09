@@ -1,2 +1,2 @@
-# smaBot
-This is my simple moving average bot that will make me MILLIONS
+# Crypto Bot
+This is my crypto Bot that will make me MILLIONS
